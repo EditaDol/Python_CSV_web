@@ -18,7 +18,7 @@ function myFunction() {
       }
     }
   }
-  // Sales total
+  // On click from a dwopdown menu: Sales  - show in result window
 $(function() {
     $('a#sales_total').bind('click', function() {
         $.getJSON ( $SCRIPT_ROOT +'sales', function (data) {
@@ -28,7 +28,7 @@ $(function() {
     }); 
     });
  
-// Average
+// On click from a dropdown menu: Average - show in result window
 $(function() {
   $('a#average').bind('click', function() {
       $.getJSON ( $SCRIPT_ROOT +'average', function (data) {
@@ -38,7 +38,7 @@ $(function() {
   }); 
   });
 
-  // Min sales month
+  // On click from a dropdown menu: Min sales month - show in result window
 $(function() {
   $('a#min').bind('click', function() {
       $.getJSON ( $SCRIPT_ROOT +'minimum', function (data) {
@@ -48,7 +48,7 @@ $(function() {
   }); 
   });
 
-  // Max sales month
+  // On click from a dropdown menu: Max sales month - show in result window
 $(function() {
   $('a#max').bind('click', function() {
       $.getJSON ( $SCRIPT_ROOT +'maximum', function (data) {
