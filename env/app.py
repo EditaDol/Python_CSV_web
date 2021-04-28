@@ -19,11 +19,11 @@ app = Flask(__name__)
 
 @app.route("/", methods=("POST", "GET"))
    
-# read data from csv
+# Read data from csv
 def html_table():
     return render_template('index.html',  tables=[df.to_html(classes='data', index=False)], titles=df.columns.values)
 
-#total sales   
+# Total sales   
 @app.route("/sales", methods=("POST", "GET"))
 def sales_total():
     total = sum(df["sales"])
