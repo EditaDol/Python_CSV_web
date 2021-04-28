@@ -12,6 +12,9 @@ h1{
   font-size: 2em;
   text-align: center;
 }
+
+/* Style window with results */
+
 .results{
   background-color: rgb(183, 213, 247);
   width: 50%;
@@ -20,12 +23,15 @@ h1{
   text-align:center;
   text-shadow: #f8b680;
 }
+
+/* Style results */
 #result {
   float: center;
   font-size: 4em;
   color: #f78324;
   margin-top: 2.6em;
 }
+/* Style table with csv data */
 .table{
   background-color: white;
   width: 50%;
