@@ -6,7 +6,6 @@ body{
   width:100%;
 }
 h1{
-  padding: 5px;
   margin: 20px;
   margin-bottom: none;
   font-size: 2em;
@@ -18,7 +17,7 @@ h1{
 .results{
   background-color: rgb(183, 213, 247);
   width: 50%;
-  height: 38em;
+  height: 30em;
   float: right;
   text-align:center;
   text-shadow: #f8b680;
@@ -29,13 +28,13 @@ h1{
   float: center;
   font-size: 4em;
   color: #f78324;
-  margin-top: 2.6em;
+  margin-top: 2em;
 }
 /* Style table with csv data */
 .table{
   background-color: white;
   width: 50%;
-  height: 38em;
+  height: 30em;
   float:left;
 
 
@@ -45,10 +44,8 @@ table.dataframe, .dataframe th, .dataframe td {
   border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
   text-align:center;
-  padding: 10px;
-  margin: 40px;
+  padding: 3px;
   margin-left: 80px;
-  margin-top:10px;
   font-size: 1em;
   width: 75%;
   height: 50%;
